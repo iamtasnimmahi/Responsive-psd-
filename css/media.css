@@ -1,0 +1,351 @@
+
+ /* Extra large devices */
+@media (min-width: 1200px) { 
+    .navbar-nav{
+        text-align: right;
+    }
+    .banner_overly {
+        padding: 189px 0;
+    }
+ }
+
+
+ /* Large devices  */
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar-nav{
+        text-align: right;
+    }
+    .banner_overly {
+        padding: 189px 0;
+    }
+    .service_text p::after {
+        left: 144px;
+    }
+    .text{
+        text-align: center;
+    }
+    .text-right {
+        text-align: center !important;
+    }
+    .text h3 {
+        margin: 0 23px;
+        line-height: 31px;
+    }
+    .text p {
+        margin: 0 37px;
+    }
+    .purchase_btn a {
+        margin-top: 25px;
+    }
+    .shape {
+        left: 7px;
+        top: 171px;
+    }
+    .overly_icon {
+        padding-top: 83px;
+        padding-left: 102px;
+    }
+    .icon_img p {
+        font-size: 13px;
+    }
+    .icon_img p::after {
+        left: 64px;
+    }
+    .img_text h3 {
+        padding-left: 15px;
+    }
+    .img_text p {
+        padding-left: 15px;
+    }
+    .img_text button {
+        padding-left: 15px;
+    }
+    .recent_text h4::after {
+        width: 212px;
+        left: 104px;
+    }
+    .recent_text h6::after {
+        width: 211px;
+        bottom: -103px;
+        left: 105px;
+    }
+    .twitter_text p::after {
+        width: 220px;
+        left: 109px;
+    }
+    .twitter_text h3::after {
+        width: 215px;
+        top: 23px;
+        left: 107px;
+    }
+    .widget_img img {
+        height: 100px;
+        width: 102px;
+    }
+  }
+
+
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-nav{
+        text-align: right;
+    }
+    .banner_overly {
+        padding: 189px 0;
+    }
+    .banner_text h3 {
+        font-size: 32px;
+    }
+    .banner_text p {
+        padding: 0px 173px;
+    }
+    .service_text p::after {
+        left: 105px;
+    }
+    .text{
+        text-align: center;
+    }
+    .text-right {
+        text-align: center !important;
+    }
+    .idea_text p {
+        margin: 0 53px;
+    }
+    .project_btn{
+        text-align: center;
+    }
+    .project_img img{
+        width: 100%;
+    }
+    .project_img_overly .overly_icon img {
+        width: 50px;
+        height: 26px;
+    }
+    .shape {
+        left: 6px;
+        top: 427px;
+    }
+    .overly_icon {
+        padding: 205px;
+    }
+    .presentation_text p {
+        padding: 0px 36px;
+    }
+    .icon_img p::after {
+        left: 345px;
+    }
+    .icon_img {
+        padding-bottom: 35px;
+    }
+    .post_text p {
+        padding: 0 53px;
+    }
+    .widget_img img {
+        height: 134px;
+        width: 168px;
+    }
+    .privacy_text{
+        text-align: center;
+    }
+    .privacy_text h3 {
+        line-height: 17px;
+        padding-bottom: 10px;
+    }
+    .design_text{
+        text-align: center;
+    }
+ }
+
+
+ /* Small devices  */
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .navbar-nav{
+        text-align: right;
+    }
+    .banner_text h3 {
+        font-size: 30px;
+    }
+    .banner_text h1 {
+        line-height: 53px;
+    }
+    .banner_text p {
+        padding: 0px 100px;
+    }
+    .banner_overly {
+        padding: 189px 0;
+    }
+    .service_text p::after {
+        left: 120px;
+    }
+    .text{
+        text-align: center;
+    }
+    .text h3 {
+        margin: 0 60px;
+        line-height: 32px;
+    }
+    .project_btn{
+        text-align: center;
+    }
+    .project_btn button {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .text-right {
+        text-align: center !important;
+    }
+    .folio_item{
+        text-align: center;
+    }
+    .shape {
+        left: 7px;
+        top: 311px;
+    }
+    .project_img img{
+        width: 100%;
+    }
+    .project_img_overly .overly_icon img {
+        width: 50px;
+        height: 26px;
+    }
+    .overly_icon {
+        padding: 149px;
+    }
+    .icon_img p::after {
+        left: 253px;
+    }
+    .icon_img {
+        padding-bottom: 35px;
+    }
+    .post_img img{
+        width: 100%;
+    }
+    .last_text {
+        text-align: center;
+    }
+    .last_text p {
+        margin: 0 45px;
+    }
+    .last_text button {
+        padding-top: 15px;
+    }
+    .widget_img{
+        text-align: center;
+    }
+    .widget_img img {
+        height: 145px;
+        width: 174px;
+    }
+    .privacy_text{
+        text-align: center;
+    }
+    .privacy_text h3 {
+        line-height: 17px;
+        padding-bottom: 10px;
+    }
+    .design_text{
+        text-align: center;
+    }
+
+  }
+
+
+/*extra small devices */
+@media (max-width: 575.98px) {
+    .navbar-nav{
+        text-align: right;
+    }
+    .banner_overly {
+        padding: 130px 0;
+    }
+    .banner_text h3 {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .banner_text h1 {
+        font-size: 42px;
+        line-height: 40px;
+    }
+    .banner_text p {
+        padding: 0px 14px;
+    }
+    .banner_text a {
+        margin-top: 14px;
+    }
+    .service_text p::after {
+        left: 148px;
+    }
+    .service_text p {
+        padding: 0px 37px;
+    }
+    #service {
+        padding-top: 56px;
+        padding-bottom: 42px;
+    }
+    #idea {
+        padding-top: 55px;
+    }
+    .idea_text h3 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .text{
+        text-align: center;
+    }
+    .text h3 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .text-right {
+        text-align: center !important;
+    }
+    .project_btn{
+        text-align: center;
+    }
+    .project_btn button {
+        font-size: 10px;
+        margin-bottom: 12px;
+    }
+    .folio_btn a {
+        margin-bottom: 58px;
+    }
+    .presentation_overly {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .presentation_text h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .mobile_txt h3 {
+        margin-left: -76px;
+        line-height: 38px;
+    }
+    .mobile_txt p {
+        margin-left: -60px;
+        margin-right: 11px;
+    }
+    .arroww {
+        padding-top: 20px;
+        margin-left: -71px;
+        margin-right: 10px;
+        padding-bottom: 20px;
+    }
+    .icon_img {
+        margin-bottom: 60px;
+    }
+    .icon_img p::after {
+        left: 144px;
+    }
+    .privacy_text h3 {
+        line-height: 17px;
+        padding-bottom: 10px;
+    }
+    #last {
+        padding-top: 100px;
+    }
+    .design_text h3 {
+        line-height: 18px;
+    }
+ }
